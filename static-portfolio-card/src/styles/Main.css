@@ -1,0 +1,27 @@
+main {
+    padding: 27px 57px;
+    color: #ffffff;
+    background-image: url(../images/react-icon-large.png);
+    background-repeat: no-repeat;
+    background-position: right 75%;
+}
+
+.main-title{
+    font-size: 45px;
+    letter-spacing: 0.05em;    
+}
+
+.main-items {
+    margin-top: 46px;
+    max-width: 400px;
+}
+
+.main-items > li {
+    line-height: 20px;
+    padding-block: 10px;
+}
+
+.main-items > li::marker {
+    font-size: 1.6rem;
+    color: #61DAFB;
+}

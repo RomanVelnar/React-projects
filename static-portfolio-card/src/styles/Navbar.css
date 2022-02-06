@@ -1,0 +1,27 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #21222A;
+    color:#DEEBF8;
+    height: 90px;
+    padding: 33px 27px;
+  }
+  
+  .navbar-title, .navbar-subtitle {
+    margin: 0;
+}
+
+  .navbar-img {
+      height: 40px;
+      margin-right: 7px;
+  }
+
+
+  .navbar-title {
+      margin-right: auto;
+      color: #61DAFB;
+  }
+
+  .navbar-subtitle {
+      font-weight: 600;
+  }
