@@ -14,8 +14,8 @@ export default function Info() {
                 <p className="info-subtitle">Frontend Developer</p>
                 <p className="info-email">roman.velnar.com</p>
             <div className="info-buttons">    
-                <button className="info-button-email"><FontAwesomeIcon icon={faEnvelope} />Email</button>
-                <button className="info-button-linkedin"><FontAwesomeIcon icon={faLinkedin} />LinkedIn</button>
+                <button className="info-button-email"><FontAwesomeIcon icon={faEnvelope} className="info-button-icon" />Email</button>
+                <button className="info-button-linkedin"><FontAwesomeIcon icon={faLinkedin} className="info-button-icon" />LinkedIn</button>
             </div>  
             </div>
         </div>

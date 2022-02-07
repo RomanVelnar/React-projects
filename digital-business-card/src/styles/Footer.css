@@ -1,0 +1,14 @@
+.footer-container {
+    height: 10%;
+    width: 317px;
+    color: #ffffff;
+    background-color: #1A1B21;
+    margin: 0px 30px 0px 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-icon {
+    font-size: 25px;
+    margin: 20px 0px 20px 0px;
+}

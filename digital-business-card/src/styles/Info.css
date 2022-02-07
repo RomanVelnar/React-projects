@@ -1,32 +1,40 @@
+
+
 .info-container {
-    padding: 10px;
+    padding: 30px 30px 0px 30px;
     height: 60%;
+    width: 317px;
+    color: #ffffff;
 }
 
 .info-thumbnail {
-    height: 70%;
     border-radius: 10px 10px 0px 0px;
     background-repeat: no-repeat;
-    background-size: cover;
+    height: 317px;
+    width: 317px;
+    display: block;
 }
 
 .info-details {
     height: 30%;
     text-align: center;
+    background-color: #1A1B21;
 }
 
 .info-title {
-    margin: 0;
-    padding: 0;
+    font-size: 25px;
+    padding-top: 21px;
 }
 
 .info-subtitle {
     color: #F3BF99;
     font-size: 13px;
+    padding-top: 6px;
 }
 
 .info-email {
     font-size: 10px;
+    padding: 9px;
 }
 
 .info-buttons {
@@ -59,3 +67,6 @@
     margin: 0px 8px;
 }
 
+.info-button-icon {
+    margin-right: 8px;
+}
