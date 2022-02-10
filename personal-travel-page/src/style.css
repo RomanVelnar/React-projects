@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    width: 550px;
+    height: 704px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100vw;
+    height: 55px;
+    background-color: #F55A5A;
+    color: #FFFFFF;
+    justify-content: center;
+}
+
+.navbar--icon {
+    font-size: 24px;
+    margin-right: 7px;
+}
+
+.navbar--title {
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.main--container {
+    display: flex;
+    margin: 45px 40px 36px 40px;
+}
+
+.main--image {
+    width: 125px;
+    height: 168px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.main--info {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.main--country {
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+}
+
+.main--icon {
+    margin-right: 4px;
+    color: #F55A5A;
+
+}
+
+.main--countryName {
+    margin-right: 12px;
+    font-weight: 400;
+    font-size: 10px;
+    letter-spacing: 0.17em;
+}
+
+.main--link {
+    text-decoration: underline;
+    color: #918E9B;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 10px;
+}
+
+.main--title {
+    margin: 0px 0px 10px 0px;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.main--date {
+    font-size: 10px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.main--text {
+    font-size: 10px;
+    font-weight: 400;
+}
