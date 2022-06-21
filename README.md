@@ -1,5 +1,6 @@
 # React-projects
-The first couple of projects are just simple static pages done in React. The higher the number the more complicated the project.
+Personal React projects, rated by the difficulty, the higher the number the more complicated the project.
+
 ### Table of Contents
 1. static-portfolio-card
 2. digital-business-card
